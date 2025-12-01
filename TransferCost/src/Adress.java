@@ -2,13 +2,13 @@ public class Adress {
     protected String country;
     protected String city;
 
-    public Adress(String country, String city){
+    public Adress(String country, String city) {
         this.country = country;
         this.city = city;
     }
 
     @Override
-    public boolean equals(Object obj){
+    public boolean equals(Object obj) {
         if (this == obj) return true;
 
         if (obj == null || getClass() != obj.getClass()) return false;

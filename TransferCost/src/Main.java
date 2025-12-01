@@ -9,12 +9,12 @@ public class Main {
         Adress adress = new Adress("Россия", "Москва");
         Adress adress1 = new Adress("Россия", "Нижний Новгород");
         Adress adress2 = new Adress("Россия", "Саратов");
-        Adress adress3 = new Adress("США","Нью-Йорк");
+        Adress adress3 = new Adress("США", "Нью-Йорк");
         Adress adress4 = new Adress("США", "Лос-Анджелес");
         Adress adress5 = new Adress("США", "Майами");
         Adress adress6 = new Adress("Китай", "Гвуан-Джоу");
         Adress adress7 = new Adress("Китай", "Пекин");
-        Adress adress8 = new Adress("Китай","Шан-Хай");
+        Adress adress8 = new Adress("Китай", "Шан-Хай");
 
 
         // Создание "Мапы"
@@ -63,4 +63,4 @@ public class Main {
         }
         scanner.close();
     }
-    }
+}
